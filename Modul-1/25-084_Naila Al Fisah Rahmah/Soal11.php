@@ -1,6 +1,6 @@
 <?php
 
 $txt = "Hello world!";
-echo strlen($txt);
+echo strpos($txt, "world");
 
 ?>

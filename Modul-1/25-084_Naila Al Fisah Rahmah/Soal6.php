@@ -1,1 +1,6 @@
-Soal6.php
+<?php
+
+$txt = "W3schools.com";
+echo "i love $txt !";
+
+?>

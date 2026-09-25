@@ -1,1 +1,6 @@
-Soal5.php
+<?php
+
+$greeting = "Hello world";
+echo $greeting;
+
+?>

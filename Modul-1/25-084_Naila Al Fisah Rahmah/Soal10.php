@@ -1,1 +1,6 @@
-Soal10.php
+<?php
+
+$txt = "Hello world!";
+echo strrev($txt);
+
+?>
