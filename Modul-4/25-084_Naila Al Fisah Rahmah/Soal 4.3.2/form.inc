@@ -9,7 +9,7 @@
 
         <div class="field">
             <label for="email">Email Address</label>
-            <input type="text" name="email" size="31" value="<?php echo htmlspecialchars($_POST['email'] ?? ''); ?>">
+            <input type="text" name="email" size="31">
         </div>
 
         <div class="field">
@@ -17,10 +17,10 @@
             <input type="password" name="passwd" size="31">
         </div>
 
+
         <div class="field">
             <label for="address">Street Address</label>
-            <textarea name="address" rows="3" cols="22"><?php echo htmlspecialchars($_POST['address'] ?? '');
-            ?></textarea>
+            <textarea name="address" rows="3" cols="22"></textarea>
         </div>
 
         <div class="field">

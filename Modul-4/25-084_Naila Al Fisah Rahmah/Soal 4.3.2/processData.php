@@ -1,9 +1,10 @@
+
 <?php
 $errors = array();
 
 if (isset($_POST['surname']))
 {
-    require 'validate.inc';
+    require 'validate.inc'; 
 
     validateName($errors, $_POST, 'surname');
     validateEmail($errors, $_POST, 'email');
