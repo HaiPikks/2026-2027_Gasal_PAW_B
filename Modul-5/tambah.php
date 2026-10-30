@@ -6,9 +6,9 @@ mysqli_select_db($conn, "Modul 5");
 
 if (isset($_POST['simpan'])) {
 
-    $Nama = mysqli_real_escape_string($conn, $_POST['Nama']);
-    $Telp = mysqli_real_escape_string($conn, $_POST['Telp']);
-    $Alamat = mysqli_real_escape_string($conn, $_POST['Alamat']);
+    $Nama = $_POST['Nama'];
+    $Telp = $_POST['Telp'];
+    $Alamat = $_POST['Alamat'];
 
     $query = "INSERT INTO dataMaster (Nama, Telp, Alamat)
               VALUES ('$Nama', '$Telp', '$Alamat')";
